@@ -1,0 +1,30 @@
+.wrapper{
+    padding: 60px 100px;
+}
+.wrapper h3{
+    font-size: 24px;
+    font-family: 'Gilroy';
+    letter-spacing: 0px;
+    line-height: 38px;
+    font-weight: bold;
+    white-space: pre-line;
+    margin-bottom: 50px;
+}
+
+.bg_img_brands{
+    background-image: url("https://web-images.credcdn.in/_next/assets/images/home-page/brands-desktop.png");
+    height: 50px;
+    width: 100%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+@media(max-width:770px){
+    .bg_img_brands{
+    background-image: url("https://web-images.credcdn.in/_next/assets/images/home-page/brands-mobile.png");
+    height: 240px;
+    width: 100%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    }
+}

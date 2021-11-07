@@ -2,6 +2,7 @@ import React from 'react'
 import infoArray from '../Data/Infodata'
 import classes from "./information.module.css"
 import Lists from './Lists'
+import uuid from 'uuid/dist/v4'
 function Information() {
     return (
        <div className= {classes.info_bg}>
@@ -9,12 +10,12 @@ function Information() {
                {
                    infoArray.map((item)=>{
                     return(
-                        <>
+                        <div key={uuid()}>
                              <h4>{item.heading}</h4>
                              <p>{item.subHeading}</p>
                              <br />
                              <br />
-                        </>
+                        </div>
                     )
                 })
                }
