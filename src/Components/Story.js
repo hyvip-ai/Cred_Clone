@@ -1,5 +1,5 @@
 import React from "react";
-import classes from "./Story.module.css";
+import classes from "../styles/Story.module.css";
 
 function Story() {
   return (

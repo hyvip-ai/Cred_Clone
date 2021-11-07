@@ -1,6 +1,6 @@
 import React from 'react'
 import infoArray from '../Data/Infodata'
-import classes from "./information.module.css"
+import classes from "../styles/information.module.css"
 import Lists from './Lists'
 import uuid from 'uuid/dist/v4'
 function Information() {

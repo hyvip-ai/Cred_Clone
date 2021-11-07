@@ -1,5 +1,5 @@
 import React from 'react'
-import classes from './banner.module.css'
+import classes from '../styles/banner.module.css'
 function Banner() {
     return (
         <div className={classes.hero_bg}>

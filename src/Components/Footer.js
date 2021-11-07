@@ -1,5 +1,5 @@
 import React from 'react'
-import classes from './footer.module.css'
+import classes from '../styles/footer.module.css'
 function Footer() {
     return (
         <div className={classes.footer_bg}>
