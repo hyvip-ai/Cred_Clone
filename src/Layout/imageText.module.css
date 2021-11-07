@@ -1,0 +1,64 @@
+.imageBg{
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    padding: 240px 200px 180px;
+    background-size: cover;
+    color: rgb(248,248,248);
+    background-color: rgb(90,30,203);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.imageBg h1{
+    font-size: 100px;
+    opacity: 0.9;
+    letter-spacing: -3.15px;
+    font-family: 'Gilroy', sans-serif;
+    font-weight: bold;
+    line-height: 1;
+    /* white-space: pre-line; */
+}
+.imageBg h4{
+    font-size: 32px;
+    white-space: pre-line;
+    opacity: 0.9;
+    letter-spacing: -0.2px;
+    font-family: 'Gilroy', sans-serif;
+    font-weight: bold; 
+    max-width: 630px;
+    line-height: 38px;
+    margin-top: 20px;
+}
+.imageBg p{
+    font-size: 18px;
+    font-family: 'Gilroy';
+    letter-spacing: 0px;
+    font-weight: 800;
+    line-height: 28px;
+    white-space: pre-line;
+    max-width: 630px;
+    margin-bottom: 40px;
+}
+.imageBg button{
+    border: none;
+    padding: 20px 65px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+    font-family: 'Gilroy';
+    font-weight: bold;
+    letter-spacing: 0.4px;
+    line-height: 30px;
+    border-radius: 40px;
+    cursor: pointer;
+    height: 70px;
+   align-self: self-start;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+.imageBg button:active{
+    transform: scale(0.95);
+}
