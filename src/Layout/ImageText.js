@@ -14,10 +14,12 @@ function ImageText(props) {
     return (
         <div className={classes.imageBg} style={divImage}>
      
-                <h1 dangerouslySetInnerHTML={createMarkup()}></h1>
+          <div className="container">
+          <h1 dangerouslySetInnerHTML={createMarkup()}></h1>
                 <h4>{data.subHeading}</h4>
                 <p>{data.text}</p>
                 <button>{data.buttonText}</button>
+          </div>
           
         </div>
     )

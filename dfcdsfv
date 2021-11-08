@@ -1,0 +1,35 @@
+[33mcommit fd148af4f8cfb7abae37f61aacb452d1342bad0a[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/office_additions[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: hyvip-ai <rm2932002@gmail.com>
+Date:   Sun Nov 7 18:40:06 2021 +0530
+
+    Styles Folder Added
+
+[33mcommit f15bb270b5a48a88ad3e378ef036c25eeb13a493[m
+Author: hyvip-ai <rm2932002@gmail.com>
+Date:   Sun Nov 7 18:38:06 2021 +0530
+
+    Footer and Hero Section Added
+
+[33mcommit 4244b19a4c7ea0b9d02fedf0dafae8cdba4d9e55[m
+Author: hyvip-ai <rm2932002@gmail.com>
+Date:   Sun Nov 7 17:51:07 2021 +0530
+
+    Removed Assets
+
+[33mcommit d13eb557d48fb570311bb0f69f198a055a3154ad[m
+Author: hyvip-ai <rm2932002@gmail.com>
+Date:   Sun Nov 7 17:50:39 2021 +0530
+
+    Added Layouts and Components
+
+[33mcommit f0390c0e60893ade4b9f69b7a872373c2055c184[m
+Author: hyvip-ai <rm2932002@gmail.com>
+Date:   Sun Nov 7 15:53:50 2021 +0530
+
+    Initial Commit
+
+[33mcommit 17ee21f1d0b959ef0bf66eb516a63c6d44918cf4[m
+Author: hyvip-ai <rm2932002@gmail.com>
+Date:   Sun Nov 7 15:50:44 2021 +0530
+
+    Initialize project using Create React App
