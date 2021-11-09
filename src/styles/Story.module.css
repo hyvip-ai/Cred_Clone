@@ -16,11 +16,11 @@
     align-items: flex-end;
 }
 .story_bg h1{
-    font-size: 60px;
+    font-size: 85px;
     font-weight: bold;
     font-family: 'Gilroy';
-    letter-spacing: -1.15px;
-    line-height: 64px;
+    letter-spacing: -0.15px;
+    line-height: 86px;
     white-space: pre-line;
     opacity: 0.9;
 }
