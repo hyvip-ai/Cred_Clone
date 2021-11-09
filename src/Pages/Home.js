@@ -7,6 +7,7 @@ import Information from '../Components/Information'
 import Banner from '../Components/Banner'
 import Rewards from '../Components/Rewards'
 import Footer from '../Components/Footer'
+import Rating from '../Components/Rating'
 function Home() {
 
     return (
@@ -18,6 +19,7 @@ function Home() {
         <Parallax/>
         <ImageText data={data.security_first}/>
         <Story/>
+        <Rating />
         <Information/>
         <Footer/>
         </>

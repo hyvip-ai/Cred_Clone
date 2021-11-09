@@ -1,8 +1,13 @@
 .footer_bg{
     background-color: rgb(22,21,23);
-    padding: 100px 200px;
     color: rgb(248,248,248);
+    min-height: 100vh;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
 }
+
  .security{
     
     margin-top: 100px;
@@ -38,6 +43,8 @@ img{
 }
 .copyright{
     opacity: 0.7;
+    font-size: 18px;
+    font-family: 'Gilroy';
 }
 .footer_bg ul{
     list-style-type: none;
@@ -52,4 +59,7 @@ img{
     margin-bottom: 10px;
     display: block;
     opacity: 0.7;
+}
+.margin_top{
+    margin-top: 40px;
 }
