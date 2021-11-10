@@ -9,7 +9,6 @@ function Navbar() {
           } else {
             document.getElementById("navbar").style.top = "-110px";
           }
-        console.log('scrolling')
         prevScrollpos = currentScrollPos;
     })
   return (
