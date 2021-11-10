@@ -2,3 +2,19 @@
     background-color: black;
     color: white;
 }
+.item{
+    padding: 15px;
+
+}
+.item h4{
+    font-size: 18px;
+    font-family: 'Gilroy';
+    line-height: 32px;
+}
+.item p{
+    text-align: center;
+    font-family: 'Gilroy';
+    line-height: 22px;
+    margin-top: 45px;
+    margin-bottom: 0px;
+}
