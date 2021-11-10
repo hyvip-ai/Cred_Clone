@@ -1,0 +1,23 @@
+.navbar_bg{
+    background-color: rgba(0,0,0,1);
+    height: 110px;
+    position: sticky;
+    width: 100%;
+    z-index: 999;
+    top: 0px;
+    transition: all 0.25s;
+}
+.navbar_bg a{
+    color: white!important;
+    color: rgb(255, 255, 255);
+    opacity: 0.8;
+    font-family: 'Gilroy';
+    font-size: 18px;
+    line-height: 36px;
+    white-space: nowrap;
+    font-weight: 500;
+    margin-right: 15px;
+}
+.navbar_bg button{
+    background-color: white;
+}

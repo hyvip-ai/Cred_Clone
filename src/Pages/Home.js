@@ -9,10 +9,12 @@ import Rewards from '../Components/Rewards'
 import Footer from '../Components/Footer'
 import Rating from '../Components/Rating'
 import Testimonials from '../Components/Testimonials'
+import Navbar from '../Components/Navbar'
 function Home() {
 
     return (
         <>
+        <Navbar/>
         <Banner/>
         <ImageText data={data.deserve_more}/>
         <Rewards/>
