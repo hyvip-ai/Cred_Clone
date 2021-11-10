@@ -6,7 +6,7 @@ function Story() {
     <div className={classes.story_bg}>
       <div className="container">
         <div className="row">
-          <div className="col-md-6 {classes.baseAling}">
+          <div className={`col-md-6 ${classes.baseAling}` }>
             <h1>the story of <br />CRED begins <br /> with trust.</h1>
           </div>
           <div className="col-md-6">

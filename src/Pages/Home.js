@@ -8,6 +8,7 @@ import Banner from '../Components/Banner'
 import Rewards from '../Components/Rewards'
 import Footer from '../Components/Footer'
 import Rating from '../Components/Rating'
+import Testimonials from '../Components/Testimonials'
 function Home() {
 
     return (
@@ -20,6 +21,7 @@ function Home() {
         <ImageText data={data.security_first}/>
         <Story/>
         <Rating />
+        <Testimonials/>
         <Information/>
         <Footer/>
         </>
