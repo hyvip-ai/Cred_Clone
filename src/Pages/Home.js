@@ -10,12 +10,16 @@ import Footer from '../Components/Footer'
 import Rating from '../Components/Rating'
 import Testimonials from '../Components/Testimonials'
 import Navbar from '../Components/Navbar'
+import Mobiles from '../Components/Mobiles'
+import ProgressIndicator from '../Components/Progress_Indicator'
 function Home() {
 
     return (
         <>
+        <ProgressIndicator/>
         <Navbar/>
         <Banner/>
+        <Mobiles/>
         <ImageText data={data.deserve_more}/>
         <Rewards/>
         <ImageText data={data.money_matters}/>
