@@ -24,26 +24,26 @@
 }
 .mobile_img_1{
     z-index: 98;
-    transform: translate(-160%,50%);
+    transform: translate(-0%,115%);
 }
 .mobile_img_2{
-    transform: translate(-105%,33%);
+    transform: translate(-0%,115%);
     z-index: 99;
 
 }
 .mobile_img_3{
-    transform: translate(-50%,17%);
+    transform: translate(-50%,115%);
     z-index: 100;
     
 }
 .mobile_img_4{
-    transform: translate(5%,33%);
+    transform: translate(0%,115%);
     z-index: 99;
     
 }
 .mobile_img_5{
     z-index: 98;
-    transform: translate(60%,50%);
+    transform: translate(0%,115%);
     
 }
 
