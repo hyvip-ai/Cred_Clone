@@ -4,12 +4,12 @@ import classes from "../styles/Story.module.css";
 function Story() {
   return (
     <div className={classes.story_bg}>
-      <div className="container">
-        <div className="row">
+      <div className={`container ${classes.container}`}>
+        <div className={`row align-items-between ${classes.myrow}`}>
           <div className={`col-md-6 ${classes.baseAling}` }>
             <h1>the story of <br />CRED begins <br /> with trust.</h1>
           </div>
-          <div className="col-md-6">
+          <div className={`col-md-6 ${classes.secondColumn}` }>
             <p>
               trust as a virtue has consistently played an essential role in
               every great human achievement. and consistently, its importance
