@@ -34,7 +34,7 @@
     font-size: 18px;
     font-family: 'Gilroy';
     letter-spacing: 0px;
-    font-weight: 800;
+    font-weight: 500;
     line-height: 28px;
     white-space: pre-line;
     max-width: 630px;
@@ -54,4 +54,57 @@
     cursor: pointer;
     height: 70px;
 
+}
+@media(max-width:1279px){
+        .imageBg{
+            background-position: center bottom;
+        }
+}
+@media(max-width:776px){
+    .imageBg button{
+        padding: 16px 25px;
+        font-size: 18px;
+    }
+    .imageBg h1{
+        font-size: 85px;
+        line-height: 75px;
+    }
+    .imageBg h4{
+        font-size: 24px;
+        line-height: 34px;
+    }
+    .imageBg p{
+        font-size: 16px;
+        line-height: 22px;
+    }
+  
+}
+@media(max-width:742px){
+    .imageBg{
+        background-position: 75% center;
+    }
+    .layout_container{
+        height: 80%!important;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+}
+@media (max-width:481px) {
+    .imageBg h1{
+        font-size: 65px;
+        line-height: 58px;
+        letter-spacing: -1.95px;
+    }
+    .imageBg h4{
+        font-size: 18px;
+        line-height: 24px;
+        letter-spacing: 0;
+        margin-top: 26px;
+    }
+    .imageBg p{
+        font-size: 14px;
+        line-height: 20px;
+    }
 }

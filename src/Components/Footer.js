@@ -3,7 +3,7 @@ import classes from '../styles/footer.module.css'
 function Footer() {
     return (
         <div className={classes.footer_bg}>
-            <div className="container py-5">
+            <div className="container py-5 px-4">
             <div className="row justify-content-between">
                 <div className="col-md-5">
                     <div className={classes.logo}>

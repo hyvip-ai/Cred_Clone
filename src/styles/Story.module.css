@@ -15,11 +15,11 @@
     align-self: flex-end;
 }
 .story_bg h1{
-    font-size: 85px;
+    font-size: 65px;
     font-weight: bold;
     font-family: 'Gilroy';
     letter-spacing: -0.15px;
-    line-height: 86px;
+    line-height: 55px;
     white-space: pre-line;
     opacity: 0.9;
 }
@@ -31,4 +31,31 @@
     line-height: 28px;
     margin-top: 20px;
     max-width: 550px;
+}
+@media (max-width:766px) {
+    .story_bg h1{
+        font-size: 55px;
+        letter-spacing: -1.65px;
+        line-height: 47.5px;
+    }
+    .story_bg p{
+        font-size: 15px;
+    }
+    .container{
+        height: 90%;
+    }
+    .baseAling{
+        align-self: flex-start;
+    }
+    .secondColumn{
+        align-self: flex-end;
+    }
+    .myrow{
+        height: 100%;
+    }
+}
+@media(max-width:376px){
+    .story_bg p{
+        font-size: 13px;
+    }
 }

@@ -28,3 +28,8 @@
     background-repeat: no-repeat;
     }
 }
+@media(max-width:610px){
+    .wrapper{
+        padding: 60px 30px;
+    }
+}
