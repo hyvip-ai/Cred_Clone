@@ -6,6 +6,7 @@
     z-index: 999;
     top: 0px;
     transition: all 0.25s;
+    width: 100%;
 }
 .navbar_bg a{
     color: white!important;
