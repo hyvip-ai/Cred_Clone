@@ -1,14 +1,15 @@
-import React,{useEffect} from 'react'
+import React,{useEffect,useRef} from 'react'
 import classes from '../styles/mobile.module.css'
-import { gsap,ScrollTrigger } from "gsap/all";
-// import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { gsap } from "gsap/all";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 gsap.registerPlugin(ScrollTrigger);
-
 function Mobiles() {
+  const ref = useRef(null)
 
   useEffect(() => {
-    gsap.to("#middle", {
+    const el = ref.current;
+    gsap.to(el.querySelector("#middle"), {
       y:"17%",
       duration: 2,
       ease: "Expo.easeOut",
@@ -17,7 +18,7 @@ function Mobiles() {
       }
     });
 
-    gsap.to("#left2", {
+    gsap.to(el.querySelector("#left2"), {
       x:"-160%",
       y:"50%",
       duration: 2,
@@ -26,7 +27,7 @@ function Mobiles() {
         trigger: "#left2"
       }
     });
-    gsap.to("#left1", {
+    gsap.to(el.querySelector("#left1"), {
       x:"-105%",
       y:"33%",
       duration: 2,
@@ -36,7 +37,7 @@ function Mobiles() {
       }
     });
 
-    gsap.to("#right1", {
+    gsap.to(el.querySelector("#right1"), {
       x:"5%",
       y:"33%",
       duration: 2,
@@ -46,7 +47,7 @@ function Mobiles() {
       }
     });
 
-    gsap.to("#right2", {
+    gsap.to(el.querySelector("#right2"), {
       x:"65%",
       y:"50%",
       duration: 2,
@@ -58,7 +59,7 @@ function Mobiles() {
   }, [])
   
     return (
-        <div className={`${classes.mobile_bg}`}>
+        <div className={`${classes.mobile_bg}`} ref={ref}>
           <div className={classes.wrapper}>
           <div className={`${classes.mobile_img} ${classes.mobile_img_1} mobile_img`} id="left2">
                 <img src="https://web-images.credcdn.in/_next/assets/images/home-page/phone/left-2.png" alt="mobile left 2" />
