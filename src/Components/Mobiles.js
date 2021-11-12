@@ -2,8 +2,9 @@ import React,{useEffect,useRef} from 'react'
 import classes from '../styles/mobile.module.css'
 import { gsap } from "gsap/all";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-
+import {CSSPlugin} from 'gsap/CSSPlugin'
 gsap.registerPlugin(ScrollTrigger);
+const C = CSSPlugin // eslint-disable-line
 function Mobiles() {
   const ref = useRef(null)
 
