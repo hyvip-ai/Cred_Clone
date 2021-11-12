@@ -1,6 +1,6 @@
 import React,{useEffect} from 'react'
 import classes from '../styles/mobile.module.css'
-import { gsap } from "gsap";
+import { gsap } from "gsap/all";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 gsap.registerPlugin(ScrollTrigger);
