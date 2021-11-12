@@ -13,7 +13,7 @@
     line-height: 120px;
     padding-right: 16px;
     opacity: 0.9;
-    font-family: 'Gilroy';
+    font-family: 'Gilroy',Arial, Helvetica, sans-serif;
     font-weight: bold;
 }
 .name{
@@ -22,7 +22,7 @@
     padding-left: 16px;
     color: rgb(236, 233, 234);
     opacity: 0.9;
-    font-family: 'Gilroy';
+    font-family: 'Gilroy',Arial, Helvetica, sans-serif;
     font-weight: bold;
 }
 .flex{
@@ -36,12 +36,12 @@
 }
 .image img{
     width: 179px;
-        height: 28px;
+    height: 28px;
 }
 .button{
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
-    font-family: 'Gilroy';
+    font-family: 'Gilroy',Arial, Helvetica, sans-serif;
     padding: 15px 0px;
     width: 310px;
     display: flex;
@@ -55,6 +55,7 @@
 }
 .button img{
     width: 44px;
+    height: auto;
 }
 .button p{
     margin-bottom: 0px;

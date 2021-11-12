@@ -1,37 +1,45 @@
-import React from 'react'
-import ImageText from '../Layout/ImageText'
-import data from "../Data/ImageText"
-import Parallax from '../Components/Parallax'
-import Story from '../Components/Story'
-import Information from '../Components/Information'
-import Banner from '../Components/Banner'
-import Rewards from '../Components/Rewards'
-import Footer from '../Components/Footer'
-import Rating from '../Components/Rating'
-import Testimonials from '../Components/Testimonials'
-import Navbar from '../Components/Navbar'
-import Mobiles from '../Components/Mobiles'
-import ProgressIndicator from '../Components/Progress_Indicator'
-function Home() {
+import React, { lazy, Suspense } from "react";
+import Spinner from "../Components/Spinner";
+import data from "../Data/ImageText";
+const ImageText = lazy(() => import("../Layout/ImageText"));
+const Parallax = lazy(() => import("../Components/Parallax"));
+const Story = lazy(() => import("../Components/Story"));
+const Information = lazy(() => import("../Components/Information"));
+const Banner = lazy(() => import("../Components/Banner"));
+const Rewards = lazy(() => import("../Components/Rewards"));
+const Footer = lazy(() => import("../Components/Footer"));
+const Rating = lazy(() => import("../Components/Rating"));
+const Testimonials = lazy(() => import("../Components/Testimonials"));
 
-    return (
-        <>
-        <ProgressIndicator/>
-        <Navbar/>
-        <Banner/>
-        <Mobiles/>
-        <ImageText data={data.deserve_more}/>
-        <Rewards/>
-        <ImageText data={data.money_matters}/>
-        <Parallax/>
-        <ImageText data={data.security_first}/>
-        <Story/>
+const Mobiles = lazy(() => import("../Components/Mobiles"));
+
+const Navbar = lazy(() => import("../Components/Navbar"));
+const ProgressIndicator = lazy(() =>
+  import("../Components/Progress_Indicator")
+);
+function Home() {
+  return (
+    <>
+      <Suspense fallback={<Spinner/>}>
+        <ProgressIndicator />
+        <Navbar />
+        <Banner />
+        <Mobiles />
+        <ImageText data={data.deserve_more} />
+        <Rewards />
+        <ImageText data={data.money_matters} />
+        <Parallax />
+        <ImageText data={data.security_first} />
+        <Story />
         <Rating />
-        <Testimonials/>
-        <Information/>
-        <Footer/>
-        </>
-    )
+        <Testimonials />
+        <Information />
+        <Footer />
+      </Suspense>
+
+    
+    </>
+  );
 }
 
-export default Home
+export default Home;
