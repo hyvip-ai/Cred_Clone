@@ -2,7 +2,7 @@ import React,{useEffect,useRef} from 'react'
 import classes from '../styles/mobile.module.css'
 import { gsap } from "gsap/all";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import {CSSPlugin} from 'gsap/CSSPlugin'
+import CSSPlugin from 'gsap/CSSPlugin'
 const C = CSSPlugin // eslint-disable-line
 function Mobiles() {
   const ref = useRef(null)
@@ -17,7 +17,7 @@ function Mobiles() {
       duration: 2,
       ease: "Expo.easeOut",
       scrollTrigger: {
-        trigger: "#middle"
+        trigger: el.querySelector("#middle"),
       }
     });
 
@@ -27,7 +27,7 @@ function Mobiles() {
       duration: 2,
       ease: "Expo.easeOut",
       scrollTrigger: {
-        trigger: "#left2"
+        trigger: el.querySelector("#left2")
       }
     });
     gsap.to(el.querySelector("#left1"), {
@@ -36,7 +36,7 @@ function Mobiles() {
       duration: 2,
       ease: "Expo.easeOut",
       scrollTrigger: {
-        trigger: "#left2"
+        trigger: el.querySelector("#left1")
       }
     });
 
@@ -46,7 +46,7 @@ function Mobiles() {
       duration: 2,
       ease: "Expo.easeOut",
       scrollTrigger: {
-        trigger: "#right1"
+        trigger: el.querySelector("#right1")
       }
     });
 
@@ -56,7 +56,7 @@ function Mobiles() {
       duration: 2,
       ease: "Expo.easeOut",
       scrollTrigger: {
-        trigger: "#right2"
+        trigger: el.querySelector("#right2")
       }
     });
   }, [])

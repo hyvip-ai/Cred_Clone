@@ -1,6 +1,8 @@
 import React, { lazy, Suspense } from "react";
 import Spinner from "../Components/Spinner";
 import data from "../Data/ImageText";
+import Mobiles from '../Components/Mobiles'
+
 const ImageText = lazy(() => import("../Layout/ImageText"));
 const Parallax = lazy(() => import("../Components/Parallax"));
 const Story = lazy(() => import("../Components/Story"));
@@ -11,7 +13,6 @@ const Footer = lazy(() => import("../Components/Footer"));
 const Rating = lazy(() => import("../Components/Rating"));
 const Testimonials = lazy(() => import("../Components/Testimonials"));
 
-const Mobiles = lazy(() => import("../Components/Mobiles"));
 
 const Navbar = lazy(() => import("../Components/Navbar"));
 const ProgressIndicator = lazy(() =>
@@ -24,7 +25,10 @@ function Home() {
         <ProgressIndicator />
         <Navbar />
         <Banner />
+        </Suspense>
+
         <Mobiles />
+        <Suspense fallback={<Spinner/>}>
         <ImageText data={data.deserve_more} />
         <Rewards />
         <ImageText data={data.money_matters} />
