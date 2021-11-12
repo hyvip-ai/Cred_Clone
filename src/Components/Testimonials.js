@@ -1,9 +1,15 @@
-import React from "react";
+import React,{useEffect} from "react";
 import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
 import classes from '../styles/testimonials.module.css'
 function Testimonials() {
+ useEffect(() => {
+  //  console.log(document.getElementsByClassName('owl-dot'))
+  document.querySelectorAll('.owl-dot').forEach(item=>{
+    item.setAttribute('aria-label',"owl-nav-dot")
+  })
+}, [])
   return (
     <div className={classes.testimonial_bg}>
       <div className="container">

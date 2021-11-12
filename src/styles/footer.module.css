@@ -13,17 +13,19 @@
     margin-top: 100px;
     margin-bottom: 40px;
     width: 405px;
+    height: auto;
 }
 
  .logo{
     width: 168px;
+    height: auto;
 }
 img{
     width: 100%;
     object-fit: contain;
 }
 .footer_bg h4{
-    font-family: 'Gilroy';
+    font-family: 'Gilroy',Arial, Helvetica, sans-serif;
     font-weight: bold;
     letter-spacing: 0.75px;
     line-height: 22px;
@@ -32,7 +34,7 @@ img{
     font-size: 21px;
 }
 .footer_bg p{
-    font-family: 'Gilroy';
+    font-family: 'Gilroy',Arial, Helvetica, sans-serif;
     font-weight: 500;
     font-size: 18px;
     letter-spacing: 0.75px;
@@ -44,7 +46,7 @@ img{
 .copyright{
     opacity: 0.7;
     font-size: 18px;
-    font-family: 'Gilroy';
+    font-family: 'Gilroy',Arial, Helvetica, sans-serif;
 }
 .footer_bg ul{
     list-style-type: none;
@@ -52,7 +54,7 @@ img{
 }
 .footer_bg li{
     color: inherit;
-    font-family: 'Gilroy';
+    font-family: 'Gilroy',Arial, Helvetica, sans-serif;
     font-size: 18px;
     letter-spacing: 0.75px;
     line-height: 33px;
