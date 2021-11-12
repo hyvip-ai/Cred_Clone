@@ -100,3 +100,27 @@
         padding: 0px 30px;
     }
 }
+@media(max-width:450px){
+    .rating{
+        font-size: 80px;
+        line-height: 80px;
+    }
+    .name{
+        font-size: 42px;
+        line-height: 45px;
+    }
+    .image img{
+        height: 23px;
+        width: 150px;
+    }
+    .button{
+        width: 200px;
+        
+    }
+    .button img{
+        width: 25px;
+    }
+    .button p{
+        font-size: 12px;
+    }
+}

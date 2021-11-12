@@ -1,5 +1,6 @@
 .imageBg{
     height: 100vh;
+    min-height: 865px;
     width: 100%;
     overflow: hidden;
     background-size: cover;
