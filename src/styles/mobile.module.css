@@ -47,34 +47,21 @@
     
 }
 @media (max-width:1276px) {
-    .wrapper{
-        top: 23%;
-    }
+
     .mobile_img{
         height: 600px;
         width: 300px;
     }
 }
 @media (max-width:766px) {
-    /* .mobile_bg{
-        height: 70vh;
-    } */
-    .wrapper{
-        top: 30%;
-    }
+
     .mobile_img{
         height: 543px;
         width: 270px;
     }
 }
 @media (max-width:481px) {
-    /* .mobile_bg{
-        height: 50vh;
-    } */
-    .wrapper{
-        
-        top: 56%;
-    }
+
     .mobile_img{
         height: 342px;
         width: 170px;
