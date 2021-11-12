@@ -63,3 +63,24 @@ img{
 .margin_top{
     margin-top: 40px;
 }
+@media(max-width:576px){
+
+}
+@media(max-width:500px){
+    .security{
+        width: 270px;
+        margin-top: 60px;
+    }
+    .logo{
+        width: 70px;
+    }
+    .footer_bg h4{
+        font-size: 12px;
+    }
+    .footer_bg p{
+        font-size: 12px;
+    }
+    .footer_bg li{
+        font-size: 12px;
+    }
+}

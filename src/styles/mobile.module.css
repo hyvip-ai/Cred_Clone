@@ -3,13 +3,17 @@
     border-image: url(https://web-images.credcdn.in/_next/assets/images/home-page/video-bg.png);
     background-color: black;
     overflow: hidden;
-    
+    width: 100%;
     display: flex;
     justify-content: center;
 }
 .wrapper{
  
     position: relative;
+    height: 100%;
+    width: 100%;
+    left: 50%;
+    bottom: 0%;
 }
 .mobile_img{
     height: 797px;
@@ -21,6 +25,8 @@
     height: 100%;
     width: 100%;
     object-fit: contain;
+    left: 50%;
+    bottom: 0%;
 }
 .mobile_img_1{
     z-index: 98;
@@ -47,21 +53,27 @@
     
 }
 @media (max-width:1276px) {
-
+    .wrapper{
+        bottom: -4%;
+    }
     .mobile_img{
         height: 600px;
         width: 300px;
     }
 }
 @media (max-width:766px) {
-
+    .wrapper{
+        bottom: -2%;
+    }
     .mobile_img{
         height: 543px;
         width: 270px;
     }
 }
 @media (max-width:481px) {
-
+    .wrapper{
+        bottom: -13%;
+    }
     .mobile_img{
         height: 342px;
         width: 170px;
