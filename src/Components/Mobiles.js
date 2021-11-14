@@ -18,6 +18,8 @@ function Mobiles() {
       ease: "Expo.easeOut",
       scrollTrigger: {
         trigger: el.querySelector("#middle"),
+        //toggleActions:"restart none none none",,
+        // start:'top bottom'
       }
     });
 
@@ -27,7 +29,9 @@ function Mobiles() {
       duration: 2,
       ease: "Expo.easeOut",
       scrollTrigger: {
-        trigger: el.querySelector("#left2")
+        trigger: el.querySelector("#left2"),
+        //toggleActions:"restart none none none",
+
       }
     });
     gsap.to(el.querySelector("#left1"), {
@@ -36,7 +40,9 @@ function Mobiles() {
       duration: 2,
       ease: "Expo.easeOut",
       scrollTrigger: {
-        trigger: el.querySelector("#left1")
+        trigger: el.querySelector("#left1"),
+        //toggleActions:"restart none none none",
+
       }
     });
 
@@ -46,7 +52,9 @@ function Mobiles() {
       duration: 2,
       ease: "Expo.easeOut",
       scrollTrigger: {
-        trigger: el.querySelector("#right1")
+        trigger: el.querySelector("#right1"),
+        //toggleActions:"restart none none none",
+
       }
     });
 
@@ -56,7 +64,9 @@ function Mobiles() {
       duration: 2,
       ease: "Expo.easeOut",
       scrollTrigger: {
-        trigger: el.querySelector("#right2")
+        trigger: el.querySelector("#right2"),
+        //toggleActions:"restart none none none",
+
       }
     });
   }, [])
