@@ -5,6 +5,7 @@
   color: rgb(248, 248, 248);
   padding: 150px 0px;
 }
+
 .wrapper h1 {
   font-size: 105px;
   font-family: "Ubuntu", sans-serif;
@@ -26,7 +27,7 @@
 
 .mobile_outer {
   position: sticky;
-  top: 180px;
+  top: 120px;
   width: 350px;
   height: 600px;
   box-shadow: rgb(176 176 178 / 16%) 0px -5px 6px 0px inset,
@@ -54,4 +55,52 @@
   -webkit-box-pack: center;
   justify-content: center;
   overflow: hidden;
+}
+.small_screen{
+  display: none;
+}
+
+
+@media(max-width:1280px){
+  .wrapper h1{
+    font-size: 70px;
+  }
+  .mobile_outer{
+    width: 272px;
+    height: 480px;
+  }
+  .mobile_inner img{
+    object-position: top;
+  }
+}
+
+@media(max-width:768px){
+  
+  .big_screen{
+    display: none;
+  }
+  .small_screen{
+    display: block;
+    padding: 0px 60px;
+  }
+  .wrapper h1{
+    font-size: 56px;
+    line-height: 54px;
+  }
+  .wrapper p{
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 400px;
+  }
+  .data{
+    margin: 55px 0px;
+  }
+  
+}
+
+@media(max-width:390px){
+  .mobile_outer{
+    width: 213px;
+    height: 365px;
+  }
 }
