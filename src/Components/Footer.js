@@ -7,10 +7,10 @@ function Footer() {
             <div className="row justify-content-between">
                 <div className="col-md-5">
                     <div className={classes.logo}>
-                        <img src="https://web-images.credcdn.in/_next/assets/images/home-page/cred-logo-horizontal.png" alt="Cred Logo" />
+                        <img src="https://web-images.credcdn.in/_next/assets/images/home-page/cred-logo-horizontal.png" width='168' height='55.5' alt="Cred Logo" />
                     </div>
                     <div className={classes.security}>
-                        <img src="https://web-images.credcdn.in/_next/assets/images/home-page/security-logos.png" alt="Security" />
+                        <img src="https://web-images.credcdn.in/_next/assets/images/home-page/security-logos.png" alt="Security" width='405' height='67.325' />
                     </div>
                     <div>
                         <h4>

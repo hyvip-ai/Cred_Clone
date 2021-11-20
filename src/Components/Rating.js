@@ -20,6 +20,8 @@ function Rating() {
               <img
                 src="https://web-images.credcdn.in/_next/assets/images/home-page/apple-store-logo.png"
                 alt="apple-store"
+                height='44'
+                width='44'
               />
               <p>Download The App</p>
             </div>
@@ -40,6 +42,8 @@ function Rating() {
               <img
                 src="https://web-images.credcdn.in/_next/assets/images/home-page/play-store-logo.png"
                 alt="play store"
+                height='44'
+                width='44'
               />
               <p>Download The App</p>
             </div>

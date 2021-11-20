@@ -77,7 +77,7 @@ function Slider() {
         <div className={`col-md-5 sticky-top ${classes.mobile_wrapper}`}>
             <div className={classes.mobile_outer}>
                 <div className={classes.mobile_inner}>
-                  <img className="mobile-img" src="https://web-images.credcdn.in/_next/assets/images/home-page/features/fold1.png" alt="house" />
+                  <img className="mobile-img" width='274' height='578' src="https://web-images.credcdn.in/_next/assets/images/home-page/features/fold1.png" alt="house" />
                 </div>
             </div>
         </div>

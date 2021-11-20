@@ -3,7 +3,7 @@
     padding: 100px 20px;
 }
 .info_bg h4{
-    font-family: 'Gilroy',Arial, Helvetica, sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     font-size: 18px;
     letter-spacing: 0.75px;
     line-height: 22px;
@@ -13,7 +13,7 @@
     font-weight: bold;
 }
 .info_bg p{
-    font-family: 'Gilroy',Arial, Helvetica, sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     font-weight: 500;
     font-size: 18px;
     letter-spacing: 0.75px;
@@ -26,7 +26,7 @@
     list-style-type: '- ';
 }
 .info_bg li{
-    font-family: 'Gilroy',Arial, Helvetica, sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     font-weight: 500;
     font-size: 18px;
     letter-spacing: 0.75px;
