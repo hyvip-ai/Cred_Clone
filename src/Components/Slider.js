@@ -1,37 +1,33 @@
-import React, { useEffect } from "react";
+import React, { useEffect,useMemo } from "react";
 import classes from "../styles/slider.module.css";
 import images from "../Data/phoneImage";
 const checkSectionPosition = (entry,img) =>{
+
   if(entry.target.classList.contains('first') && entry.isVisible && entry.isIntersecting){
-    console.log(images[0])
     img.src = images[0]
   }
   else if(entry.target.classList.contains('second') && entry.isVisible && entry.isIntersecting){
-    console.log(images[1])
     img.src = images[1]
   }
   else if(entry.target.classList.contains('third') && entry.isVisible && entry.isIntersecting){
-    console.log(images[2])
     img.src = images[2]
   }
   else if(entry.target.classList.contains('fourth') && entry.isVisible && entry.isIntersecting){
-    console.log(images[3])
     img.src = images[3]
   }
 }
 
 function Slider() {
-  const options = {
+  const options = useMemo(() => {return {
     rootMargin: '0px',
     threshold: 0,
     trackVisibility: true,
     delay: 100 
 
-  }
+  }}, [])
   useEffect(()=>{
       const sections = document.querySelectorAll('section')
       const img = document.querySelector('.mobile-img')
-      console.log(img)
       const observer = new IntersectionObserver((entries,observer)=>{
             entries.forEach(entry=>{
               checkSectionPosition(entry,img)
