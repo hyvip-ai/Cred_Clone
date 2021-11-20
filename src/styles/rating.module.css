@@ -6,6 +6,9 @@
     display: flex;
     overflow: hidden;
     align-items: center;
+    background-image: url("https://web-images.credcdn.in/_next/assets/images/home-page/hero-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .rating{

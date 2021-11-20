@@ -1,11 +1,14 @@
 .mobile_bg{
     height: 100vh;
-    border-image: url(https://web-images.credcdn.in/_next/assets/images/home-page/video-bg.png);
+    background-image: url(https://web-images.credcdn.in/_next/assets/images/home-page/video-bg.png);
     background-color: black;
     overflow: hidden;
     width: 100%;
     display: flex;
     justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
 }
 .wrapper{
  

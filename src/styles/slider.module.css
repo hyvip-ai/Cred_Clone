@@ -2,11 +2,12 @@
   width: 100%;
   min-height: 100vh;
   background-image: url("https://web-images.credcdn.in/_next/assets/images/home-page/hero-bg.png");
-  color: rgb(248,248,248);
+  color: rgb(248, 248, 248);
+  padding: 150px 0px;
 }
 .wrapper h1 {
   font-size: 105px;
-  font-family: 'Gilroy';
+  font-family: "Gilroy";
   font-weight: bold;
   letter-spacing: -3.15px;
   line-height: 105px;
@@ -15,10 +16,39 @@
 }
 .wrapper p {
   font-size: 18px;
-  font-family: 'Gilroy';
+  font-family: "Gilroy";
   letter-spacing: 0px;
   line-height: 28px;
   font-weight: 500;
   max-width: 600 px;
   margin-top: 52 px;
+}
+
+.mobile_outer {
+  position: sticky;
+  top: 180px;
+  width: 350px;
+  height: 600px;
+  box-shadow: rgb(176 176 178 / 16%) 0px -5px 6px 0px inset,
+    rgb(0 0 0 / 24%) 4px 6px 11px 1px inset;
+  border-radius: 46px;
+  padding: 16px 14px;
+}
+
+.mobile_wrapper{
+  display: flex;
+  justify-content: center;
+}
+
+.first,.second,.third,.fourth{
+  margin-top: 100vh;
+}
+.mobile_inner{
+  background-color: rgb(39, 43, 45);
+  border-radius: 36px;
+  height: 100%;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  overflow: hidden;
 }
