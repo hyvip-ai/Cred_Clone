@@ -1,39 +1,92 @@
 import React, { useEffect, useMemo } from "react";
 import classes from "../styles/slider.module.css";
 import images from "../Data/phoneImage";
+import { gsap } from "gsap/all";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+import CSSPlugin from "gsap/CSSPlugin";
+const C = CSSPlugin; // eslint-disable-line
+gsap.registerPlugin(ScrollTrigger);
 const checkSectionPosition = (entry, img) => {
   if (
     entry.target.classList.contains("first") &&
     entry.isVisible &&
     entry.isIntersecting
   ) {
-    img.src = images[0];
+    let tl = gsap.timeline({
+      onComplete: () => {
+        console.log("first section callback");
+        img.src = images[0];
+
+        let tl1 = gsap.timeline({});
+        tl1.fromTo(".mobile-img", { x: 350 }, { x: 0 });
+      },
+    });
+    tl.fromTo(".mobile-img", { x: 0 }, { x: -350 });
   } else if (
     entry.target.classList.contains("second") &&
     entry.isVisible &&
     entry.isIntersecting
   ) {
-    img.src = images[1];
+    let tl = gsap.timeline({
+      onComplete: () => {
+        console.log("second section callback");
+
+        img.src = images[1];
+        let tl1 = gsap.timeline({});
+        tl1.fromTo(".mobile-img", { x: 350 }, { x: 0 });
+      }
+    });
+    tl.fromTo(".mobile-img", { x: 0 }, { x: -350 });
   } else if (
     entry.target.classList.contains("third") &&
     entry.isVisible &&
     entry.isIntersecting
   ) {
-    img.src = images[2];
+    let tl = gsap.timeline({
+      onComplete: () => {
+        console.log("third section callback");
+
+        img.src = images[2];
+        let tl1 = gsap.timeline({});
+        tl1.fromTo(".mobile-img", { x: 350 }, { x: 0 });
+      },
+    });
+    tl.fromTo(".mobile-img", { x: 0 }, { x: -350 });
   } else if (
     entry.target.classList.contains("fourth") &&
     entry.isVisible &&
     entry.isIntersecting
   ) {
-    img.src = images[3];
+    let tl = gsap.timeline({
+      onComplete: () => {
+        console.log("fourth section callback");
+        img.src = images[3];
+        let tl1 = gsap.timeline({});
+        tl1.fromTo(".mobile-img", { x: 350 }, { x: 0 });
+      },
+    });
+    tl.fromTo(".mobile-img", { x: 0 }, { x: -350 });
   }
+  // else if(  entry.target.classList.contains("fourth") &&
+  // !entry.isVisible &&
+  // !entry.isIntersecting){
+  //   let tl = gsap.timeline({
+  //     onComplete: () => {
+  //       console.log("fourth section callback");
+  //       img.src = images[0];
+  //       let tl1 = gsap.timeline({});
+  //       tl1.fromTo(".mobile-img", { x: 350 }, { x: 0 });
+  //     },
+  //   });
+  //   tl.fromTo(".mobile-img", { x: 0 }, { x: -350 });
+  // }
 };
 
 function Slider() {
   const options = useMemo(() => {
     return {
       rootMargin: "0px",
-      threshold: 0,
+      threshold: 0.1,
       trackVisibility: true,
       delay: 100,
     };
@@ -102,7 +155,7 @@ function Slider() {
                 className="mobile-img"
                 width="274"
                 height="578"
-                src="https://web-images.credcdn.in/_next/assets/images/home-page/features/fold1.png"
+                src="https://web-images.credcdn.in/_next/assets/images/home-page/features/fold4.png"
                 alt="house"
               />
             </div>
