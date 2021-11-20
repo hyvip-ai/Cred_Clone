@@ -7,8 +7,10 @@ function Rating() {
         <div className="row justify-content-between">
           <div className={`col-md-6 ${classes.column}`}>
             <div className={classes.flex}>
-                <div className={classes.rating}>4.8</div>
-                <div className={classes.name}>app <br /> store</div>
+              <div className={classes.rating}>4.8</div>
+              <div className={classes.name}>
+                app <br /> store
+              </div>
             </div>
             <div className={classes.image}>
               <img
@@ -20,17 +22,18 @@ function Rating() {
               <img
                 src="https://web-images.credcdn.in/_next/assets/images/home-page/apple-store-logo.png"
                 alt="apple-store"
-                height='44'
-                width='44'
+                height="44"
+                width="44"
               />
               <p>Download The App</p>
             </div>
           </div>
           <div className={`col-md-6 ${classes.column}`}>
-
             <div className={classes.flex}>
-            <div className={classes.rating}>4.7</div>
-            <div className={classes.name}>play <br /> store</div>
+              <div className={classes.rating}>4.7</div>
+              <div className={classes.name}>
+                play <br /> store
+              </div>
             </div>
             <div className={classes.image}>
               <img
@@ -42,8 +45,8 @@ function Rating() {
               <img
                 src="https://web-images.credcdn.in/_next/assets/images/home-page/play-store-logo.png"
                 alt="play store"
-                height='44'
-                width='44'
+                height="44"
+                width="44"
               />
               <p>Download The App</p>
             </div>

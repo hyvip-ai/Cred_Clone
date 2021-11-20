@@ -1,8 +1,8 @@
-.parallax_bg{
-    background-image: url("https://web-images.credcdn.in/_next/assets/images/home-page/image-mock.jpg");
-    background-attachment: fixed;
-    min-height: 500px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
+.parallax_bg {
+  background-image: url("https://web-images.credcdn.in/_next/assets/images/home-page/image-mock.jpg");
+  background-attachment: fixed;
+  min-height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
 }

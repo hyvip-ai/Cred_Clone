@@ -1,32 +1,30 @@
-.testimonial_bg{
-    background-color: black;
-    color: white;
-    padding-bottom: 80px;
-    background-image: url("https://web-images.credcdn.in/_next/assets/images/home-page/hero-bg.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    
+.testimonial_bg {
+  background-color: black;
+  color: white;
+  padding-bottom: 80px;
+  background-image: url("https://web-images.credcdn.in/_next/assets/images/home-page/hero-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-.item{
-    padding: 15px;
-
+.item {
+  padding: 15px;
 }
-.item h4{
-    font-size: 18px;
-    font-family: 'Ubuntu', sans-serif;
-    line-height: 32px;
-    text-align: center;
+.item h4 {
+  font-size: 18px;
+  font-family: "Ubuntu", sans-serif;
+  line-height: 32px;
+  text-align: center;
 }
-.item p{
-    text-align: center;
-    font-family: 'Ubuntu', sans-serif;
-    line-height: 22px;
-    margin-top: 45px;
-    margin-bottom: 0px;
+.item p {
+  text-align: center;
+  font-family: "Ubuntu", sans-serif;
+  line-height: 22px;
+  margin-top: 45px;
+  margin-bottom: 0px;
 }
 
-@media(max-width:485px){
-    .item h4{
-        font-size: 14px;
-    }
+@media (max-width: 485px) {
+  .item h4 {
+    font-size: 14px;
+  }
 }

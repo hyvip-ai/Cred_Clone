@@ -9,14 +9,14 @@ const Rewards = lazy(() => import("../Components/Rewards"));
 const Footer = lazy(() => import("../Components/Footer"));
 const Rating = lazy(() => import("../Components/Rating"));
 const Testimonials = lazy(() => import("../Components/Testimonials"));
-const Slider = lazy(()=>import("../Components/Slider"))
+const Slider = lazy(() => import("../Components/Slider"));
 function Lower() {
   return (
     <>
       <ImageText data={data.deserve_more} />
       <Rewards />
       <ImageText data={data.money_matters} />
-      <Slider/>
+      <Slider />
       <Parallax />
       <ImageText data={data.security_first} />
       <Story />

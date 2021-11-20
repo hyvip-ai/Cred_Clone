@@ -1,61 +1,61 @@
-.story_bg{
-    background-image: url("https://web-images.credcdn.in/_next/assets/images/home-page/trust-bg.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100vh;
-    width: 100%;
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: rgb(248, 248, 248);
+.story_bg {
+  background-image: url("https://web-images.credcdn.in/_next/assets/images/home-page/trust-bg.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(248, 248, 248);
 }
-.baseAling{
+.baseAling {
+  align-self: flex-end;
+}
+.story_bg h1 {
+  font-size: 65px;
+  font-weight: 500;
+  font-family: "Ubuntu", sans-serif;
+  letter-spacing: -0.15px;
+  line-height: 55px;
+  white-space: pre-line;
+  opacity: 0.9;
+}
+.story_bg p {
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "Ubuntu", sans-serif;
+  letter-spacing: 0px;
+  line-height: 28px;
+  margin-top: 20px;
+  max-width: 550px;
+}
+@media (max-width: 766px) {
+  .story_bg h1 {
+    font-size: 55px;
+    letter-spacing: -1.65px;
+    line-height: 47.5px;
+  }
+  .story_bg p {
+    font-size: 15px;
+  }
+  .container {
+    height: 90%;
+  }
+  .baseAling {
+    align-self: flex-start;
+  }
+  .secondColumn {
     align-self: flex-end;
+  }
+  .myrow {
+    height: 100%;
+  }
 }
-.story_bg h1{
-    font-size: 65px;
-    font-weight: 500;
-    font-family: 'Ubuntu', sans-serif;
-    letter-spacing: -0.15px;
-    line-height: 55px;
-    white-space: pre-line;
-    opacity: 0.9;
-}
-.story_bg p{
-    font-size: 18px;
-    font-weight: 500;
-    font-family: 'Ubuntu', sans-serif;
-    letter-spacing: 0px;
-    line-height: 28px;
-    margin-top: 20px;
-    max-width: 550px;
-}
-@media (max-width:766px) {
-    .story_bg h1{
-        font-size: 55px;
-        letter-spacing: -1.65px;
-        line-height: 47.5px;
-    }
-    .story_bg p{
-        font-size: 15px;
-    }
-    .container{
-        height: 90%;
-    }
-    .baseAling{
-        align-self: flex-start;
-    }
-    .secondColumn{
-        align-self: flex-end;
-    }
-    .myrow{
-        height: 100%;
-    }
-}
-@media(max-width:376px){
-    .story_bg p{
-        font-size: 13px;
-    }
+@media (max-width: 376px) {
+  .story_bg p {
+    font-size: 13px;
+  }
 }

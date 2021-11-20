@@ -1,100 +1,95 @@
-.hero_bg{
-    background-image: url("https://web-images.credcdn.in/_next/assets/images/home-page/hero-bg.png");
-    height: 100vh;
-    width: 100%;
-    background-color: black;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: rgb(248,248,248);
-    font-family: 'Ubuntu', sans-serif;
-    text-align: center;
-    padding: 0px 30px;
-  
+.hero_bg {
+  background-image: url("https://web-images.credcdn.in/_next/assets/images/home-page/hero-bg.png");
+  height: 100vh;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: rgb(248, 248, 248);
+  font-family: "Ubuntu", sans-serif;
+  text-align: center;
+  padding: 0px 30px;
 }
-.hero_bg h1{
-    font-size: 106px;
-    line-height: 125px;
-    letter-spacing: -3px;
-    font-weight: 700;
-    text-align: center;
+.hero_bg h1 {
+  font-size: 106px;
+  line-height: 125px;
+  letter-spacing: -3px;
+  font-weight: 700;
+  text-align: center;
 }
-.hero_bg h4{
-   
-    font-size: 30px;
-    letter-spacing: -0.2px;
-    line-height: 38px;
-    margin-top: 35px;
-    text-align: center;
-    font-weight: 500;
+.hero_bg h4 {
+  font-size: 30px;
+  letter-spacing: -0.2px;
+  line-height: 38px;
+  margin-top: 35px;
+  text-align: center;
+  font-weight: 500;
 }
-.hero_bg button{
-    display: inline-flex;
-    white-space: nowrap;
-    -webkit-box-align: center;
-    align-items: center;
-    position: relative;
-    pointer-events: auto;
-    text-align: center;
-    padding: 20px 65px;
-    background-color: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
-    font-size: 24px;
-    letter-spacing: 0.4px;
-    line-height: 30px;
-    border-radius: 40px;
-    cursor: pointer;
-    margin-top: 58px;
-    border: none;
-    font-weight: 700;
+.hero_bg button {
+  display: inline-flex;
+  white-space: nowrap;
+  -webkit-box-align: center;
+  align-items: center;
+  position: relative;
+  pointer-events: auto;
+  text-align: center;
+  padding: 20px 65px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  font-size: 24px;
+  letter-spacing: 0.4px;
+  line-height: 30px;
+  border-radius: 40px;
+  cursor: pointer;
+  margin-top: 58px;
+  border: none;
+  font-weight: 700;
 }
 
-@media(max-width:1276px){
-    .hero_bg h1{
-        margin-top: 100px;
-        font-size: 97px;
-        line-height: 107px;
-    }
-    .hero_bg h4{
-        font-size: 25px;
-    }
-
+@media (max-width: 1276px) {
+  .hero_bg h1 {
+    margin-top: 100px;
+    font-size: 97px;
+    line-height: 107px;
+  }
+  .hero_bg h4 {
+    font-size: 25px;
+  }
 }
-@media(max-width:896px){
-    .hero_bg h1{
-        margin-top: 200px;
-        font-size: 82px;
-        line-height: 92px;
-    }
- 
+@media (max-width: 896px) {
+  .hero_bg h1 {
+    margin-top: 200px;
+    font-size: 82px;
+    line-height: 92px;
+  }
 }
 
-@media(max-width:766px){
-    .hero_bg h1{
-        margin-top: 200px;
-        font-size: 65px;
-        line-height: 55px;
-        text-align: left;
-    }
-    .hero_bg h4{
-        font-size: 19px;
-        text-align: left;
-        line-height: 24px;
-    }
-    .hero_bg{
+@media (max-width: 766px) {
+  .hero_bg h1 {
+    margin-top: 200px;
+    font-size: 65px;
+    line-height: 55px;
     text-align: left;
-    }
-    .hero_bg button{
-        padding: 16px 25px;
-        font-size: 18px;
-    }
- 
+  }
+  .hero_bg h4 {
+    font-size: 19px;
+    text-align: left;
+    line-height: 24px;
+  }
+  .hero_bg {
+    text-align: left;
+  }
+  .hero_bg button {
+    padding: 16px 25px;
+    font-size: 18px;
+  }
 }
 
-@media(max-width:476px){
-    .hero_bg h1{
-        font-size: 55px;
-        margin-top: 100px;
-    }
+@media (max-width: 476px) {
+  .hero_bg h1 {
+    font-size: 55px;
+    margin-top: 100px;
+  }
 }

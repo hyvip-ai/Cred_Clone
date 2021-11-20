@@ -6,10 +6,13 @@ function Story() {
     <div className={classes.story_bg}>
       <div className={`container ${classes.container}`}>
         <div className={`row align-items-between ${classes.myrow}`}>
-          <div className={`col-md-6 ${classes.baseAling}` }>
-            <h1>the story of <br />CRED begins <br /> with trust.</h1>
+          <div className={`col-md-6 ${classes.baseAling}`}>
+            <h1>
+              the story of <br />
+              CRED begins <br /> with trust.
+            </h1>
           </div>
-          <div className={`col-md-6 ${classes.secondColumn}` }>
+          <div className={`col-md-6 ${classes.secondColumn}`}>
             <p>
               trust as a virtue has consistently played an essential role in
               every great human achievement. and consistently, its importance
@@ -28,7 +31,6 @@ function Story() {
               if you make it to CRED, congratulations and welcome. we have a lot
               of things planned for you.
             </p>
-            
           </div>
         </div>
       </div>
