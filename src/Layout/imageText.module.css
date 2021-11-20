@@ -15,8 +15,8 @@
     font-size: 100px;
     opacity: 0.9;
     letter-spacing: -3.15px;
-    font-family: 'Gilroy', sans-serif;
-    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
     line-height: 1;
     /* white-space: pre-line; */
 }
@@ -25,17 +25,17 @@
     white-space: pre-line;
     opacity: 0.9;
     letter-spacing: -0.2px;
-    font-family: 'Gilroy', sans-serif;
-    font-weight: bold; 
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500; 
     max-width: 630px;
     line-height: 38px;
     margin-top: 20px;
 }
 .imageBg p{
     font-size: 18px;
-    font-family: 'Gilroy';
+    font-family: 'Ubuntu', sans-serif;
     letter-spacing: 0px;
-    font-weight: 500;
+    font-weight: 400;
     line-height: 28px;
     white-space: pre-line;
     max-width: 630px;
@@ -47,7 +47,7 @@
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
     font-size: 24px;
-    font-family: 'Gilroy';
+    font-family: 'Ubuntu', sans-serif;
     font-weight: bold;
     letter-spacing: 0.4px;
     line-height: 30px;
