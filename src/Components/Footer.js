@@ -32,7 +32,7 @@ function Footer() {
           </div>
           <div className="col-md-6">
             <div className="row">
-              <div className="col-sm-5 justify-content-between">
+              <div className="col-5 justify-content-between">
                 <h4>products</h4>
                 <ul>
                   <li>Credit and Bill</li>
@@ -40,7 +40,7 @@ function Footer() {
                   <li>Credit Score Check</li>
                 </ul>
               </div>
-              <div className="col-sm-5 justify-content-between">
+              <div className="col-5 justify-content-between">
                 <h4>cred</h4>
                 <ul>
                   <li>about</li>
@@ -51,7 +51,7 @@ function Footer() {
               </div>
             </div>
             <div className="row">
-              <div className="col-sm-5">
+              <div className="col-5">
                 <h4>resource</h4>
                 <ul>
                   <li>articles</li>
@@ -59,7 +59,7 @@ function Footer() {
                   <li>calculators</li>
                 </ul>
               </div>
-              <div className="col-sm-5">
+              <div className="col-5">
                 <h4>policy</h4>
                 <ul>
                   <li>security</li>

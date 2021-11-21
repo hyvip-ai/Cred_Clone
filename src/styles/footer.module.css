@@ -64,6 +64,12 @@ img {
 .margin_top {
   margin-top: 40px;
 }
+
+@media(max-width:992px){
+  .security{
+    width: 320px;
+  }
+}
 @media (max-width: 576px) {
 }
 @media (max-width: 500px) {

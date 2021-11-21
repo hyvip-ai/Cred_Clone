@@ -67,19 +67,6 @@ const checkSectionPosition = (entry, img) => {
     });
     tl.fromTo(".mobile-img", { x: 0 }, { x: -350 });
   }
-  // else if(  entry.target.classList.contains("fourth") &&
-  // !entry.isVisible &&
-  // !entry.isIntersecting){
-  //   let tl = gsap.timeline({
-  //     onComplete: () => {
-  //       console.log("fourth section callback");
-  //       img.src = images[0];
-  //       let tl1 = gsap.timeline({});
-  //       tl1.fromTo(".mobile-img", { x: 350 }, { x: 0 });
-  //     },
-  //   });
-  //   tl.fromTo(".mobile-img", { x: 0 }, { x: -350 });
-  // }
 };
 
 function Slider() {
@@ -198,7 +185,7 @@ function Slider() {
             <div className={classes.mobile_outer}>
               <div className={classes.mobile_inner}>
                 <img
-                  src="https://web-images.credcdn.in/_next/assets/images/home-page/features/fold1.png"
+                  src="https://web-images.credcdn.in/_next/assets/images/home-page/features/fold2.png"
                   alt="House"
                 />
               </div>
@@ -222,7 +209,7 @@ function Slider() {
             <div className={classes.mobile_outer}>
               <div className={classes.mobile_inner}>
                 <img
-                  src="https://web-images.credcdn.in/_next/assets/images/home-page/features/fold1.png"
+                  src="https://web-images.credcdn.in/_next/assets/images/home-page/features/fold3.png"
                   alt="House"
                 />
               </div>
@@ -247,7 +234,7 @@ function Slider() {
             <div className={classes.mobile_outer}>
               <div className={classes.mobile_inner}>
                 <img
-                  src="https://web-images.credcdn.in/_next/assets/images/home-page/features/fold1.png"
+                  src="https://web-images.credcdn.in/_next/assets/images/home-page/features/fold4.png"
                   alt="House"
                 />
               </div>
