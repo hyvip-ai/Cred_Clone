@@ -19,49 +19,59 @@ function Mobiles() {
       scrollTrigger: {
         trigger: el.querySelector("#middle"),
         //toggleActions:"restart none none none",,
-        // start:'top bottom'
+        start:'-100px bottom',
+        // markers:true,
+        
       },
     });
 
     gsap.to(el.querySelector("#left2"), {
-      x: "-160%",
+      x: "-110%",
       y: "50%",
       duration: 2,
       ease: "Expo.easeOut",
       scrollTrigger: {
         trigger: el.querySelector("#left2"),
+        start:'-100px bottom',
+        
         //toggleActions:"restart none none none",
       },
     });
     gsap.to(el.querySelector("#left1"), {
-      x: "-105%",
+      x: "-55%",
       y: "33%",
       duration: 2,
       ease: "Expo.easeOut",
       scrollTrigger: {
         trigger: el.querySelector("#left1"),
+        start:'-100px bottom',
+
         //toggleActions:"restart none none none",
       },
     });
 
     gsap.to(el.querySelector("#right1"), {
-      x: "5%",
+      x: "55%",
       y: "33%",
       duration: 2,
       ease: "Expo.easeOut",
       scrollTrigger: {
         trigger: el.querySelector("#right1"),
+        start:'-100px bottom',
+
         //toggleActions:"restart none none none",
       },
     });
 
     gsap.to(el.querySelector("#right2"), {
-      x: "65%",
+      x: "115%",
       y: "50%",
       duration: 2,
       ease: "Expo.easeOut",
       scrollTrigger: {
         trigger: el.querySelector("#right2"),
+        start:'-100px bottom',
+
         //toggleActions:"restart none none none",
       },
     });
